@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtJoke"
+        android:layout_width="136dp"
+        android:layout_height="243dp"
+        android:layout_marginTop="50dp"
+        android:text="Шутка загружается.."
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сгенерировать шутку" />
+
+</RelativeLayout>
